@@ -7,7 +7,7 @@ ingredients. Format your response in markdown to make it easier to render to a w
 `
 
 const anthropic = new Anthropic({
-    apiKey: import.meta.env.VITE_AI_API_KEY,
+    apiKey : import.meta.env.VITE_ANTHROPIC_API_KEY,
     dangerouslyAllowBrowser: true,
 })
 
